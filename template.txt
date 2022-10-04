@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
+    <link rel="stylesheet" href="template.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!--NAVBAR WORKING-->
+    <div id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2"><h2>Hotel Mario</h2></div>
+                <div class="col-md-9">
+                    <ul id="menu" class="">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Contact Us</li>
+                        <input type="text" placeholder="search..">
+                    </ul>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+<!-- BANNER WORKING -->
+
+<div id="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="title">
+                    <p class="l"><a><h2 style="color:rgb(169, 231, 25);">Hotel Mario</h2</a></p>
+                    <p class=" col-3 lead"><h2 style="color:rgb(169, 231, 25);">Discount voucher avilabe and lots of offer now running....<br>so can save lot's of money.</h2></p>
+                </div>
+             </div>
+        </div>
+    </div>
+</div>
+<!--About hoytel branches and srvices-->
+ <div id="hotel section">
+    <div class="container">
+        <div class="row">
+            <h1 style="text-align:center;">Hotel Services</h1>
+            <div class="col-md-4">
+                <div class="service">
+                    <img src="hotelicon.jpeg">
+                    <h2 style="text-align:center;">About Hotel</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque repudiandae quod animi laboriosam, quasi illum rem, ab ipsam numquam reiciendis blanditiis quas qui.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service ">
+                    <img src="servicestaff.png">
+                    <h2 style="text-align:center;">Hotel Staff</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque repudiandae quod animi laboriosam, quasi illum rem, ab ipsam numquam reiciendis blanditiis quas qui.</p>
+                </div>
+             </div>
+            <div class="col-md-4">
+                <div class="service">
+                    <img src="contacticon.jpeg">
+                    <h2 style="text-align:center;">Contact counter</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque repudiandae quod animi laboriosam, quasi illum rem, ab ipsam numquam reiciendis blanditiis quas qui.</p>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+ </div>
+  <!--Testimonial-->  
+<div id="testimonial">
+    <div class="container">
+        <div class="row">
+           <h1 style="text-align:center; color: white;">Testimonial</h1>
+           <div class="class-md-6">
+                <div class="holder t">
+                    <h2>Founder</h2>
+                    <div class="image">
+                        <img src="tata.jpg">
+                    </div>
+                    <h4>Raten Tata</h4>
+                    <p>Great business man and founder of Taj hotel</p>
+                </div>
+            </div>
+            <div class="class-md-6 ">
+                <div class="holder">
+                    <h2>Co-Founder</h2>
+                    <div class="image">
+                        <img src="adani.jpeg">
+                    </div>
+                    <h4>Adani</h4>
+                    <p>Great business man & stackholder</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- Fome -->
+<div id="fome">
+    <div class="container">
+        <div class="row">
+            <div class="reg">
+                <img src="reg.webp" alt="fomeicon">
+                <h1 class="fo" style="text-align:center;">Registration Fome</h1>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="fom">
+                    <input type="text" placeholder="Name"><br><br>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="fom">
+                    <input type="text" placeholder="Last-Name"><br><br>
+                </div>
+             </div>
+            <div class="col-md-4">
+                <div class="fom">
+                    <input type="text" placeholder="country"><br><br>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="fom">
+                    <input type="date" placeholder="date"><br><br>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="fom">
+                    <input type="text" placeholder="payment"><br><br>
+                </div>
+             </div>
+            <div class="col-md-4">
+                <div class="fom">
+                    <input type="text" placeholder="ID"><br><br>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="fom">
+                    <input type="submit" placeholder="submit"><br><br>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+ </div>
+ <!-- footer-->
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="company">
+                    <h2 style="text-align:center;">Hotel review</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque repudiandae quod animi laboriosam, quasi illum rem, ab ipsam numquam reiciendis blanditiis quas qui.</p>
+                    <input type="artical" placeholder="write review">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="company">
+                    <h2 style="text-align:center;">About hotel</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque repudiandae quod animi laboriosam, quasi illum rem, ab ipsam numquam reiciendis blanditiis quas qui.</p>
+                </div>
+             </div>
+            <div class="col-md-4">
+                <div class="company">
+                    <h2 style="text-align:center;">Contact-us</h2>
+                    <p><img src="email.jpeg">hotelmaria@gmail.com</p>
+                    <p><img src="phone.png">56892-89</p>
+                    <p><img src="insta.jpeg">insta</p>
+                </div>
+            </div>
+            
+           
+        </div>
+    </div>
+ </div>
+
+
+</body>
+</html>

@@ -1,0 +1,117 @@
+a:hover{
+    text-decoration: none;
+}
+#section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+#logo{
+    font-size: 1rem;
+
+}
+#header{
+    
+    color: black;
+}
+#menu{
+    margin: 2px;
+    padding: 0px;
+}
+#menu li{
+    display: inline-block;
+    padding-top: 7px;
+}
+#menu li a{
+    text-decoration: none;
+    color:black;
+    margin:8px
+    
+
+}
+#menu li a:hover{
+    background-color: gainsboro;
+}
+
+#banner{
+    background-image: url("hotel.jpg");
+    background-size: cover;
+    height: 40%;
+    text-decoration: none;
+    
+}
+.title p.l{
+    padding:10px;
+    margin: 0px;
+    background-color: ;
+  
+}
+.title p a h2{
+    height: 30px;
+    width: 5px;
+}
+.title p.l:hover{
+    transform: rotate(360);
+}
+.title p.lead{
+    
+    color:rgb(5, 118, 78);
+    text-decoration: none;
+    
+}   
+.lead{
+    text-decoration: none;
+}
+
+.service{
+     text-align: center;
+}
+.service i.fa{
+    color: red;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+#hotel{
+    margin-left: 70px;
+}
+.service img{
+    width: 30px;
+    height: 25px;
+}
+.holder img{
+    width: 2px;
+    height: 2px;
+}
+#testimonial{
+    background-image: url("them2.jpeg");
+    
+}
+.holder{
+    color:white;
+    display: inline;
+}
+
+.image img{
+    height: 30px;
+    width: 35px;
+    border-radius: 50%;
+}
+.reg img{
+    transform: translate(24px ,68px);
+    height: 30px;
+    width: 35px;
+    border-radius: 50%;
+}
+.fo{
+    margin: 30px;
+}
+.fom input{
+    padding: 3px;
+}
+#about{
+    background-color: aquamarine;
+}
+.company p img{
+    height: 30px;
+    width: 35px;
+    border-radius: 50%;
+}
